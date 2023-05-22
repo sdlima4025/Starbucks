@@ -36,13 +36,12 @@ h2 {
   padding: 10px 35px;
   border-radius: 3px;
   text-decoration: none;
-  margin-top: 40px;
+  margin-top: 20px;
   font-size: 1rem;
-
 }
 .button:hover {
   background-color: #454545;
-  color: #FFF;
+  color: #fff;
 }
 header .line {
   background-color: #117050;
@@ -128,7 +127,7 @@ header .line {
   margin-bottom: 30px;
 }
 .area1--text {
-  margin-bottom: 50px;
+  margin-bottom: 25px;
   line-height: 25px;
   font-weight: 400;
 }
@@ -148,9 +147,8 @@ header .line {
   padding: 80px;
 }
 .area2--text {
-  margin-bottom: 50px;
+  margin-bottom: 25px;
   line-height: 25px;
-
 }
 .area2--img1 {
   background-color: #117050;
@@ -168,3 +166,42 @@ header .line {
   background-position: center;
 }
 
+.area3 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.area3--content {
+  padding: 200px 80px;
+  background-image: url(../imagens/bg2.jpg);
+  background-size: cover;
+  background-position: left;
+}
+.area3--img1 {
+  background-image: url(../imagens/f5.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.area3--text {
+  margin-bottom: 25px;
+  line-height: 25px;
+  font-weight: 400;
+}
+
+.area4 {
+  display: grid;
+  grid-template-columns: 450px 1fr;
+  background-color: #e8e9ee;
+}
+.area4--content {
+  padding: 160px 80px;
+}
+
+.area4--text {
+  margin-bottom: 25px;
+  line-height: 25px;
+}
+.area4--img1 {
+  background-image: url(../imagens/bg3.jpg);
+  background-position: left;
+}
