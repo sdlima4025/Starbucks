@@ -205,3 +205,15 @@ header .line {
   background-image: url(../imagens/bg3.jpg);
   background-position: left;
 }
+.area5 {
+  height: 600px;
+  background-image: url(../imagens/bg4.jpg);
+  background-size: cover;
+  background-position: center;
+}
+footer {
+  background-color: #333333;
+  color: #fff;
+  padding: 80px;
+  text-align: center;
+}
